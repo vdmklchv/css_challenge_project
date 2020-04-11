@@ -1,0 +1,149 @@
+*   {
+    margin: 0;
+    padding: 0;
+}
+
+h1  {
+    font-size: 50px;
+}
+
+h3  {
+    font-size: 30px;
+}
+
+h4  {
+    font-size: 20px;
+}
+
+body {
+    background-color: lightblue;
+}
+
+p   {
+    margin: 30px 0 30px 0;
+}
+
+main    {
+    font-family: 'Baloo Paaji 2', cursive;
+    width: 800px;
+    margin: 0 auto 0 auto;
+    color: rgb(70, 70, 70);
+    margin-top: 10px;
+}
+
+main ol {
+    border: 3px rgba(128, 107, 89, 0.459) solid;
+    padding: 10px 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+header  {
+    font-family: 'Indie Flower', cursive;
+    background-color: rgb(0, 31, 88);
+    margin: 0;
+    border-bottom: 3px solid gray;
+    text-align: center;
+    color: wheat;
+}
+
+section {
+    margin: 0 auto 30px auto;
+}
+.menu   {
+    border: 5px solid rgb(175, 159, 129);
+}
+
+.menu li    {
+    display: inline;
+    margin-right: 30px;
+    font-size: 17px;
+}
+
+.menu li a   {
+    color: peru;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu li a:hover    {
+    color: white;
+}
+
+.logo   {
+    height: 150px;
+    
+}
+
+main img  {
+    border: solid 5px navy;
+    border-radius: 3px;
+}
+
+figcaption  {
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+    background-color: gray;
+    color: wheat;
+    margin: 0 0 30px 0;
+}
+
+
+th  {
+    background-color: lightslategray;
+}
+
+tr td{
+    border: 5px solid grey;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table   {
+    background: rgba(119,136,153,0.5);
+    color: rgb(253, 251, 251);
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table  {
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+label span  {
+    font-size: 20px;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+}
+
+textarea    {
+    padding: 5px 5px
+}
+
+.btn    {
+    display: block;
+    margin-left: 90px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: navy;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer  {
+    height: 50px;
+    background: rgba(130, 0 , 35, 0.3);
+    border-top: 3px solid gray;
+    padding: 0 0 30px 0;
+}
+
+footer p    {
+    text-align: center;
+    font-weight: bold;
+}

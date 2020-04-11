@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSS Rules - Structure and examples</title>
+        <meta   charset="utf-8" />
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&family=Indie+Flower&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+
+    <body>
+        <header>
+            <h1>CSS Rules - Structure and Examples</h1>
+            <figure>
+                <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="CSS3 logo">
+            </figure>
+            <h2>This page will teach you about CSS ruleset structure, its main elements and will give you important examples</h2>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#about_css">About CSS</a></li>
+                    <li><a href="#css_integration">CSS integration with HTML</a></li>
+                    <li><a href="#rule_structure">CSS rule structure</a></li>
+                    <li><a href="#css_font">CSS font</a></li>
+                    <li><a href="#page_layout">CSS page layout</a></li>
+                    <li><a href="#feedback">Leave your feedback</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="about_css">
+                <article>
+                    <h3>What is CSS and why is it important for the website?</h3>
+                    <p>CSS is an abbreviation from Cascade Style Sheets and is an important thing if you want to add style to your website.
+                        This language is different from HTML and requires some skills to use. However, it's mandatory if you want to become
+                        a qualified markup specialist, frontend or even full-stack developer. So let's see how this all things are happening
+                        with CSS and HTML.
+                    </p>
+                </article>
+            </section>
+
+            <section id="css_integration">
+                <article>
+                    <h3>How to integrate CSS with HTML?</h3>
+                    <p>There are several ways to integrate CSS styles into HTML document:</p>
+                    <ol>
+                        <li>inline integration</li>
+                        <li>head integration</li>
+                        <li>separate file</li>
+                    </ol>
+                    <p>Let's go more in-depth into these three ways and give proper examples:</p>
+                    <h4>Inline Integration</h4>
+                    <p>The integration of CSS to elements on html page can be made in-line. This means that you apply CSS style on the same very
+                        line as the element itself. It looks like this:
+                    </p>
+                    <figure>
+                        <img src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2015/08/Purple-Header-Screenshot.png" alt="example of inline CSS style" />
+                        <figcaption>Inline CSS Style</figcaption>
+                    </figure>
+                    <h4>Head Integration</h4>
+                    <p>The integration of CSS to elements on html page can be made into head of HTML doc. This is a better approach if you need to provide same
+                        styles to multiple elements at once while inline style applies only to the style that you have put it to. Here is how it looks:
+                    </p>
+                    <figure>
+                        <img src="https://i.stack.imgur.com/8oss5.png" alt="head css integration" />
+                        <figcaption>Head Integration</figcaption>
+                    </figure>
+                    <h4>Separate File</h4>
+                    <p>Over time CSS files tend to grow very large and it's difficult to keep all the rules in head of HTML document. That's why the common practice
+                        is to put CSS to a separate file. This makes code cleaner and easier to read. Large project may have more than a single CSS file. The file
+                        is connected to HTML using link element in the header. Here is the example on how to do it:
+                    </p>
+                    <figure>
+                        <img src="https://i.ytimg.com/vi/2uqLQ-9-OLA/hqdefault.jpg" alt="css in a separate file" />
+                        <figcaption>Separate File Integration</figcaption>
+                    </figure>
+                </article>
+            </section>
+
+            <section id="rule_structure">
+                <article>
+                    <h3>What is the structure of a common CSS rule?</h3>
+                    <p>In order to work, CSS rules should be properly structured. We will show examples of how it should be done when using CSS in head or in separate file.
+                        The following image illustrates the general CSS rule:
+                    </p>
+                    <figure>
+                        <img src="https://www.w3schools.com/css/selector.gif" alt="structure of css rule">
+                        <figcaption>Structure of CSS Rule</figcaption>
+                    </figure>
+                    <p>As you can see, common CSS rule consists of selector and declaration. Declaration is put in special brackets. It can contain one or several rules.
+                        Each rule in its turn consists of property and value separated by semi-column and rules are separated by trailing dot-n-comma.</p>
+                    </p>
+                </article>
+            </section>
+
+            <section id="css_font">
+                <article>
+                    <h3>How does CSS allow to work with fonts?</h3>
+                    <p>CSS is a great way to change the fonts properties and to change the overall style of your page in the end. Let us see the most common CSS font properties
+                        in the following table with examples:
+                    </p>
+                    <h4>CSS Font Properties</h4>
+                    <table class="table">
+                        <thead>
+                            <th>Property</th>
+                            <th>Explanation</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><p>font-family</p></td>
+                                <td><p>This property allows to change the actual font, e.g. Arial, Trebuchet, etc.</p></td>
+                            </tr>
+                            <tr>
+                                <td><p>font-size</p></td>
+                                <td><p>Allows to change the size of font</p></td>
+                            </tr>
+                            <tr>
+                                <td><p>text-align</p></td>
+                                <td><p>Allows to align text or other elements to left, center or right</p></td>
+                            </tr>
+                            <tr>
+                                <td><p>text-transform</p></td>
+                                <td><p>transforms the text in various ways, making it uppercase, lowercase etc.</p></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+            </section>
+
+            <section id="page_layout">
+                <article>
+                    <h3>How to change page layout with CSS</h3>
+                    <p>CSS can be used to change page layout of HTML page. The most common examples are stated below</p>
+                    <h4>Page Layout CSS Examples</h4>
+                    <table class="table">
+                        <thead>
+                            <th>Property</th>
+                            <th>Explanation</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><p>margin</p></td>
+                                <td><p>Adds a margin for a certain block allowing it to stand out from others</p></td>
+                            </tr>
+                            <tr>
+                                <td><p>padding</p></td>
+                                <td><p>Defines the distance of content from borders of the block</p></td>
+                            </tr>
+                            <tr>
+                                <td><p>text-align</p></td>
+                                <td><p>Allows to align text or other elements to left, center or right</p></td>
+                            </tr>
+                            <tr>
+                                <td><p>height and width</p></td>
+                                <td><p>Allow to define the height and width of block or element</p></td>
+                    </table>
+                </article>
+            </section>
+
+            <section id="feedback">
+                <h3>Share your thoughts with us!</h4>
+                <label for="#like">Did you like our page?</label>
+                <span>Yes</span>
+                <input id="like" type="radio" name="yes" checked />
+                <span>No</span>
+                <input type="radio" id="like" name="yes" />
+                <label for="#text">Share your thoughts with us</label>
+                <textarea name="feedback_text" id="text" cols="30" rows="10" placeholder="your input here..."></textarea>
+                <input class="btn" type="submit" name="Submit" value="Submit" />
+            </section>
+        </main>
+
+        <footer>
+            <p>Copyright &copy Vadim Kolchev 2020</p>
+        </footer>
+    </body>
+</html>
